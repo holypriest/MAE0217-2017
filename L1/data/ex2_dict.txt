@@ -1,0 +1,75 @@
+O arquivo 01-dados_pof_domicilios.xlsx contém os dados do projeto "O GLP no Setor Residencial: Determinantes do Consumo" 
+
+Pesquisador: Felipe de Albuquerque Sgarbi
+
+
+##################################
+### Variáveis na base de dados ###
+##################################
+
+Identificação (ID): 1 - 49467
+
+Identificação do domicílio (DOM_IND)
+
+Sigla do Estado (CODIGODAUF)
+
+Estrato geográfico (ESTRATOGEOGRAFICO): diz respeito à área em que o domicílio se encontra. Categorias: urbana (1) ou rural (2).
+
+Peso amostral (Peso_para_estimativa): traz a informação sobre quantos domicílios cada observação (domicílio observado) representa. Valor numérico não necessariamente inteiro.
+
+Quantidade de moradores (QUANTIDADEDEMORADORES): número de moradores em cada domicílio. Valor inteiro.
+
+Quantidade de famílias (QUANTIDADEDEFAMILIAS): número de famílias no domicílio. Valor inteiro.
+
+Tipo de domicílio (TIPODEDOMICILIO): identifica o tipo de domicílio. Categorias: casa (1), apartamento (2) e cômodo (3).
+
+Água canalizada (EXISTENCIADEAGUACANALIZADA): identifica se existe água canalizada para pelo menos um cômodo do domicílio. Categorias: sim (1) e não (2).
+
+Renda domiciliar (RENDATOTALMENSALDODOMICILIO): identifica a renda total (em reais) do domicílio.
+
+Rede geral de energia (REDEGERALDEENERGIAELETRICA): identifica se o domicílio possui energia elétrica proveniente de rede geral (com ou sem medidor ou relógio que registre o consumo) e cuja distribuição e comercialização são feitas por empresa concessionária de serviços públicos (permissionária). Categorias: sim (1) e não (2).
+
+Aquecimento de água por energia elétrica (AQUECIMENTODEAGUAPORENERGIAELETRICA): identifica se a energia elétrica é utilizada como fonte de aquecimento de água no domicílio. Exemplo: chuveiros elétricos. Categorias: sim (1) e não (2).
+
+Aquecimento de água por gás (AQUECIMENTODEAGUAPORGAS): identifica se o gás, encanado ou de botijão, é utilizado como fonte de aquecimento de água no domicílio. Categorias: sim (1) e não (2).
+
+Aquecimento de água por energia solar (AQUECIMENTODEAGUAPORENERGIASOLAR): identifica se a energia solar é utilizada como fonte de aquecimento de água no domicílio. Categorias: sim (1) e não (2).
+
+Aquecimento de água por lenha ou carvão (AQUECIMENTODEAGUAPORLENHA): identifica se lenha ou carvão são utilizados como fonte de aquecimento de água no domicílio. Categorias: sim (1) e não (2).
+
+Fogão a gás (FOGAOAGAS): identifica se o gás, encanado ou de botijão, é utilizado como combustível no(s) fogão(ões) do domicílio. Categorias: sim (1) e não (2).
+
+Fogão a lenha (FOGAOALENHA): identifica se a lenha é utilizada como combustível no(s) fogão(ões) do domicílio. Categorias: sim (1) e não (2).
+
+Fogão a carvão (FOGAOACARVAO): identifica se o carvão é utilizado como combustível no(s) fogão(ões) do domicílio. Categorias: sim (1) e não (2).
+
+Fogão a energia elétrica (FOGAOAENERGIAELETRICA): identifica se a energia elétrica é utilizada como combustível no(s) fogão(ões) do domicílio. Categorias: sim (1) e não (2).
+
+Forno elétrico (FORNO_ELETRICO): identifica se o domicílio possui forno elétrico. Categorias: sim (1) e não (0).
+
+Grill (GRILL): identifica se o domicílio possui grill. Categorias: sim (1) e não (0). 
+
+Micro-ondas (MICROONDAS): identifica se o domicílio possui micro-ondas. Categorias: sim (1) e não (0).
+
+Quantidade de alimento anual (QUANTIDADE_FINAL_EM_KG_ANUAL): construída pelos pesquisadores do IEE, identifica a quantidade de alimento (em kg), entre os 20 principais itens de cocção, consumida em um domicílio no período de um ano. Valor numérico.
+
+Quantidade de gás anual do domicílio (QUANTIDADE_GAS_FINAL_ANUAL): identifica a quantidade de gás consumida (em kg) no domicílio. Valor numérico.
+
+Renda per capita mensal (RENDA_PER_CAPITA_MENSAL): identifica a renda per capita (em reais) de cada morador do domicílio.
+
+Região (regiao): identifica a grande região a que pertence o domicílio. Texto.
+
+Consumo de gás per capita (consumo_per_capita): identifica a quantidade de gás per capita (em kg) no domicílio. Valor numérico.
+
+Alimento per capita (alimento_per_capita): identifica a quantidade per capita de alimento (em kg), entre os 20 principais itens de cocção, consumida em um ano. Valor numérico.
+
+Quantidade de famílias categorizada (quantidade_de_familias_cat): categorias criadas para a quantidade de famílias. Texto.
+
+Categorias de renda (renda_cat): categorias criadas para a variável renda per capita. Texto.
+
+Categorias de consumo alimentar (alimento_cat): categorias criadas para a variável consumo de alimento per capita. Texto.
+
+
+##################################
+
+REFERÊNCIA:HARNIK, S.B., PAULA, G.A. e PEIXOTO, C.M. Relatório de análise estatística do projeto: “O GLP no setor residencial: determinantes do consumo”. São Paulo, IME – USP, 2015. (RAE – CEA – 15P02)
